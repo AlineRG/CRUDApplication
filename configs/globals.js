@@ -8,7 +8,7 @@ const configurations = {
       // MongoDB: "mongodb+srv://alinerabago:Password01@cluster0.vpjnh.mongodb.net/"
   },
   Authentication: {
-    GitHub: {
+    Google: {
       // ClientId: process.env.GITHUB_CLIENT_ID,
       ClientId: "Iv23lieRzYhTKPmhKH1V",
       // ClientSecret: process.env.GITHUB_CLIENT_SECRET,
