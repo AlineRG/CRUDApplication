@@ -49,9 +49,9 @@ passport.use(User.createStrategy());
 passport.use(new GoogleStrategy(
   // options object
   {
-    clientID: configs.Authentication.GitHub.ClientId,
-    clientSecret: configs.Authentication.GitHub.ClientSecret,
-    callbackURL: configs.Authentication.GitHub.CallbackURL
+    clientID: configs.Authentication.Google.ClientId,
+    clientSecret: configs.Authentication.Google.ClientSecret,
+    callbackURL: configs.Authentication.Google.CallbackURL
   },
   // callback function
   // profile is github profile
