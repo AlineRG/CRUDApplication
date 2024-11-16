@@ -46,7 +46,7 @@ app.use(passport.session());
 // Link passport to the user model
 passport.use(User.createStrategy());
 // configure github strategy
-passport.use(new githubStrategy(
+passport.use(new GoogleStrategy(
   // options object
   {
     clientID: configs.Authentication.GitHub.ClientId,
