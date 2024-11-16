@@ -12,7 +12,7 @@ const configurations = {
       // ClientId: process.env.GITHUB_CLIENT_ID,
       ClientId: "502568905575-gp45usejvd127ga01sngo1bhni3hksb8.apps.googleusercontent.com",
       // ClientSecret: process.env.GITHUB_CLIENT_SECRET,
-      ClientSecret: "b7f165a4e235bc468892ed994018891c1b065857",
+      ClientSecret: "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",
       // CallbackUrl: process.env.GITHUB_CALLBACK_URL
       CallbackUrl: "http://localhost:3000/github/callback"
     },
