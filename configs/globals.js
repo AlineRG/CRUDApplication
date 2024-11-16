@@ -10,7 +10,7 @@ const configurations = {
   Authentication: {
     Google: {
       // ClientId: process.env.GITHUB_CLIENT_ID,
-      ClientId: "Iv23lieRzYhTKPmhKH1V",
+      ClientId: "502568905575-gp45usejvd127ga01sngo1bhni3hksb8.apps.googleusercontent.com",
       // ClientSecret: process.env.GITHUB_CLIENT_SECRET,
       ClientSecret: "b7f165a4e235bc468892ed994018891c1b065857",
       // CallbackUrl: process.env.GITHUB_CALLBACK_URL
