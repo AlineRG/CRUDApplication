@@ -70,8 +70,8 @@ router.get("/logout", (req, res, next) => {
 // triggers when user clicks on the "Login with Github" button on the login page
 // user is sent to github.com in order to provide credentials
 router.get(
-  "/github",
-  passport.authenticate("github", { scope: ["user.email"] })
+  "/google",
+  passport.authenticate("google", { scope: ["user.email"] })
 );
 
 // GET /github/callback
