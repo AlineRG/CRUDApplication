@@ -18,8 +18,10 @@ var passport = require('passport');
 var session = require('express-session');
 // Import user model
 var User = require('./models/user');
-// Import GitHub Strategy
-var githubStrategy = require("passport-github2").Strategy;
+// // Import GitHub Strategy
+// var githubStrategy = require("passport-github2").Strategy;
+// Import Google Strategy
+var GoogleStrategy = require('passport-google-oauth20').Strategy;
 // Express App Object
 var app = express();
 
