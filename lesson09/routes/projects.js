@@ -25,7 +25,7 @@ router.get("/", async (req, res, next) => {
   let projects = await Project.find().sort([["dueDate", "descending"]]);
   // render view
   res.render("projects/index", {
-    title: "Project Tracker",
+    title: "Supermarket Management System",
     dataset: projects,
     user: req.user,
   });
