@@ -9,7 +9,7 @@ const AuthenticationMiddleware = require("../extensions/authentication");
 // GET /Courses/
 router.get("/", async (req, res, next) => {
   let courses = await Course.find().sort([["name", "ascending"]]);
-  res.render("courses/index", { title: "Course List", dataset: courses, user: req.user });
+  res.render("courses/index", { title: "Supplier List", dataset: courses, user: req.user });
 });
 
 // GET /Courses/Add
