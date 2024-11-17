@@ -37,9 +37,9 @@
     {{! <input name="course" id="course" required /> }}
     <select name="status" id="status">
         {{! Use HBS helper function to customize rendering }}
-        {{createOptionElement "TO DO" project.status}}
-        {{createOptionElement "IN PROGRESS" project.status}}
-        {{createOptionElement "DONE" project.status}}
+        {{createOptionElement "IN STOCK" project.status}}
+        {{createOptionElement "OUT OF STOCK" project.status}}
+        {{createOptionElement "LOW STOCK" project.status}}
     </select>
   </fieldset>
   {{! Button needs to be inside <form> element to trigger POST }}
