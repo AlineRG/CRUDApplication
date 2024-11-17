@@ -34,7 +34,7 @@ router.get("/", async (req, res, next) => {
 router.get("/add", AuthenticationMiddleware, async (req, res, next) => {
   let courseList = await Course.find().sort([["name", "ascending"]]);
   res.render("projects/add", {
-    title: "Add a New Project",
+    title: "Add a New Product",
     courses: courseList,
     user: req.user,
   });
