@@ -66,7 +66,7 @@ passport.use(new githubStrategy(
       const newUser = new User({
         username: profile.username,
         oauthId: profile.id,
-        oauthProvider: 'Github',
+        oauthProvider: 'Google',
         created: Date.now()
       });
       // add to DB
