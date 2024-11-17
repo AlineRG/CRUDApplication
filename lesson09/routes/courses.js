@@ -14,7 +14,7 @@ router.get("/", async (req, res, next) => {
 
 // GET /Courses/Add
 router.get("/add", AuthenticationMiddleware, (req, res, next) => {
-  res.render("courses/add", { title: "Add a new Course", user: req.user });
+  res.render("courses/add", { title: "Add a new Supplier", user: req.user });
 });
 
 // POST /Courses/Add
