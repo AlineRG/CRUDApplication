@@ -70,7 +70,7 @@ router.get("/edit/:_id", AuthenticationMiddleware, async (req, res, next) => {
   let projectData = await Project.findById(projectId);
   let courseList = await Course.find().sort([["name", "ascending"]]);
   res.render("projects/edit", {
-    title: "Edit Project Info",
+    title: "Edit Product Info",
     project: projectData,
     courses: courseList,
     user: req.user,
