@@ -74,10 +74,11 @@ router.get(
   passport.authenticate("google", { scope: ["profile", "email"] })
 );
 
+
 // GET /github/callback
 router.get(
-  "/github/callback", // path
-  passport.authenticate("github", { failureRedirect: "/login" }), // github middleware
+  "/google/callback", // path
+  passport.authenticate("google", { failureRedirect: "/login" }), // github middleware
   (req, res, next) => {
     res.redirect("/projects");
   } // custom middleware (success)
