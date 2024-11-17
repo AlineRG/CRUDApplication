@@ -6,7 +6,7 @@ const dataSchemaObj = {
   name: { type: String, required: true },
   dueDate: { type: Date },
   course: { type: String, required: true },
-  status: { type: String, default: "TO DO" },
+  status: { type: String, default: "IN STOCK" },
 };
 // Create mongoose schema
 const projectsSchema = mongoose.Schema(dataSchemaObj);
