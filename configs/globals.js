@@ -14,7 +14,8 @@ const configurations = {
       // ClientSecret: process.env.GITHUB_CLIENT_SECRET,
       ClientSecret: "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",
       // CallbackUrl: process.env.GITHUB_CALLBACK_URL
-      redirectUrl: "http://localhost:3000/google/callback"
+      callbackURL: "http://localhost:3000/google/callback"
+
     },
   },
 };
